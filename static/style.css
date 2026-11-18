@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  float: right;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #111;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+  background-color: #e2e2e2;
+}
+
+.title h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
